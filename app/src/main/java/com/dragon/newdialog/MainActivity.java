@@ -21,16 +21,14 @@ public class MainActivity extends AppCompatActivity {
         new UtilDialogDouble(this)
                 .setDoubleBtnText("取消", "确定")
                 .setTitle("设置了背景色")
-                .setMessage("的方式斯蒂芬斯蒂芬是否考虑技术方法是良好环境科技")
+                .setMessage("水流波动的波形都是三角波，曲线是正余弦曲线，但是Android中没有提供绘制正余弦曲线的API，好在Path类有个绘制贝塞尔曲线的方法quadTo，绘制出来的是2阶的贝塞尔曲线，要想实现波动效果，只能用它来绘制Path曲线")
                 .setOutsideClickable(true)
                 .setOnDoubleBtnClickedListener(new OnDoubleBtnClickedListener() {
                     @Override
                     public void onLeftBtnClick(Dialog utilDialogDouble) {
-                        utilDialogDouble.dismiss();
                     }
                     @Override
                     public void onRightBtnClick(Dialog utilDialogDouble) {
-                        utilDialogDouble.dismiss();
                     }
                 }).show();
     }

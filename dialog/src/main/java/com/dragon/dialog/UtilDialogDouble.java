@@ -263,6 +263,7 @@ public class UtilDialogDouble extends UtilDialogBase<UtilDialogDouble> {
                         doubleBtnClickedListener.onRightBtnClick(instance);
                     }
                 }
+                instance.dismiss();
             }
         });
         //设置取消按钮被点击后，向外界提供监听接口
@@ -296,6 +297,7 @@ public class UtilDialogDouble extends UtilDialogBase<UtilDialogDouble> {
                         doubleBtnClickedListener.onLeftBtnClick(instance);
                     }
                 }
+                instance.dismiss();
             }
         });
     }
