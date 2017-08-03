@@ -19,3 +19,5 @@
 	   new UtilDialogToast(this)
 	                .setToast("发撒好方法放假还是发生了疯狂就爱疯了",2000)
 	                .show();
+##### QQ：交流群 ：192268854
+![](https://github.com/Xbean1024/XHttp/blob/master/gif/QQ.JPG)
